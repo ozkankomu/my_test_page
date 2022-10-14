@@ -4,6 +4,7 @@
   box-shadow: inset 10px 10px 50px darkblue, 5px 5px 30px black;
   border-radius: 1rem;
   transition: transform 0.2s ease-in-out;
+  width: 430px;
 }
 
 .card:hover {
@@ -38,6 +39,7 @@ img {
   height: 130px;
   color: rgb(74, 4, 4);
   text-shadow: 1px 1px 10px rgb(28, 3, 88);
+  width: 430px;
 }
 
 .card1:hover {

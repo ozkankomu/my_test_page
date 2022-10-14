@@ -1,4 +1,3 @@
-import Cards from "./components/cards/Cards";
 import CardContainer from "./components/cardContainer/CardContainer";
 import Header from "./components/header/Header";
 import Buttons from "./components/buttons/Buttons";
@@ -33,7 +32,6 @@ function App() {
     <div className="main">
       <Header count={count} />
       <CardContainer count={count} />
-      <Cards />
       <Buttons
         showHint={showHint}
         prevButtonHandle={prevButtonHandle}

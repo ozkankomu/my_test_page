@@ -16,7 +16,7 @@ const Cards = ({ name, age, image, email }) => {
         <img src={image} alt="" />
         <div className="content">
           <h2>{name}</h2>
-          <h2>{age}</h2>
+          <h2>Age : {age}</h2>
           <p>{email}</p>
         </div>
       </div>

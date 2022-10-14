@@ -1,0 +1,24 @@
+button {
+  background-color: darkblue;
+  border-radius: 10px;
+  width: 6rem;
+  height: 2.4rem;
+  margin: 0 1rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  outline: 2px solid darkblue;
+  outline-offset: 3px;
+}
+
+.contents {
+  color: darkred;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
+}

@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import Cards from "./components/cards/Cards";
+import CardContainer from "./components/cardContainer/CardContainer";
+import Header from "./components/header/Header";
+import Buttons from "./components/buttons/Buttons";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [count, SetCount] = useState(0);
+  const [showHint, setShowHint] = useState(false);
+
+  const prevButtonHandle = () => {
+    if (count > 1) {
+      SetCount(count - 5);
+      setShowHint(false);
+    } else {
+      console.log("bastı");
+      setShowHint(true);
+    }
+  };
+
+  const nextButtonHandle = () => {
+    if (count < 15) {
+      SetCount(count + 5);
+      setShowHint(false);
+    } else {
+      console.log("bastı");
+      setShowHint(true);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <Header count={count} />
+      <CardContainer count={count} />
+      <Cards />
+      <Buttons
+        showHint={showHint}
+        prevButtonHandle={prevButtonHandle}
+        nextButtonHandle={nextButtonHandle}
+      />
     </div>
   );
 }

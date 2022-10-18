@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<p align="center">
+<a href="https://www.linkedin.com/in/ozkankomu/" target="_blank"><img src="photo1.png" alt="screenshot" target=_blanked></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+# Project : Tour Places
+## Table of contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console..
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The challenge
+Project aims to create an Employee List App. In the project, data was drawn from the data.jsx file and processed with react using the components method and shaped with css.
+## Project Skeleton 
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Skeleton
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+002-Employee List
+|
+|----readme.md        
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       └── card
+│    │             ├── Card.css
+│    │             └── Card.js
+│    ├── helper
+│    │       └── data.js
+│    ├── assets.js
+│    │       └── [images]
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    └── index.css
+├── package.json
+└── yarn.lock
+```
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshot
+<p align="left">
+<a href="https://ozkankomu.github.io/my_test_page/"><img src="screen.gif" alt="screenshot" target=_blanked></a>
+</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://ozkankomu.github.io/my_test_page/">Live Website</a>
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
+- js DOM Manipulation
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JS DOM Manipulation	
+- ReactJs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- I used HTML, CSS , JavaScript/React to complete this project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
+- [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Author - [Ozkan]
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<center> &#8987; Happy Coding  &#9997; </center>
